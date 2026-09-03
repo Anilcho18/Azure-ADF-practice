@@ -1,0 +1,15 @@
+{
+	"name": "adf-azurepractice2026",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "indiasouthcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db585793-f3c3-4844-9e01-c06bde9f4939",
+		"tenantId": "6b4560d7-844b-4b96-8148-bf7aac75045e"
+	}
+}
