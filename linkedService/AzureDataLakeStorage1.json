@@ -1,8 +1,11 @@
 {
 	"name": "AzureDataLakeStorage1",
 	"properties": {
+		"annotations": [],
 		"type": "AzureBlobFS",
-		"annotations": []
+		"typeProperties": {
+			"url": "https://stazure2026.dfs.core.windows.net/"
+		}
 	},
 	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
